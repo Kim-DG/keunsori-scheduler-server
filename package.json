@@ -10,7 +10,7 @@
     "sequelize": "^7.0.0-alpha.4",
     "sqlite3": "^5.0.2"
   },
-  "name": "keunsori",
+  "name": "keunsori-scheduler",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
