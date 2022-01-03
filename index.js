@@ -29,9 +29,9 @@ let connection = mysql.createConnection({
 });
 
 connection.connect();
-
+var serverPort = 8080;
 //express 구동
-app.listen(process.env.PORT || 5000, function () {
+app.listen(process.env.PORT || serverPort, function () {
   console.log("Example app listening on port 3000!");
 });
 
