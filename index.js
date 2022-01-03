@@ -31,7 +31,7 @@ let connection = mysql.createConnection({
 connection.connect();
 
 //express 구동
-app.listen(3000, function () {
+app.listen(process.env.PORT || 5000, function () {
   console.log("Example app listening on port 3000!");
 });
 
