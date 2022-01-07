@@ -90,10 +90,7 @@ describe.only("PUT /selected-songs/:selected_songId", () => {
       request(app)
         .put("/selected-songs/2")
         .send({
-          concertId: 2,
-          selectorName: "김대경",
-          singerName: "악뮤",
-          songName: "stupid love song",
+          sequence: 5,
         })
         .end((err, res) => {
           res.body.should.have.property("concertId", 2);
